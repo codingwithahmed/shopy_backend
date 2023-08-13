@@ -1,0 +1,33 @@
+{
+  "name": "shopy-backend",
+  "version": "1.0.0",
+  "description": "This is backend for shopy an inventory managment system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index",
+    "dev" : "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingwithahmed/shopy_backend.git"
+  },
+  "keywords": [
+    "inventory",
+    "mangment",
+    "system"
+  ],
+  "author": "Ahmed Farooq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingwithahmed/shopy_backend/issues"
+  },
+  "homepage": "https://github.com/codingwithahmed/shopy_backend#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.12.0",
+    "express": "^4.18.2",
+    "graphql": "^16.7.1",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
